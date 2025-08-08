@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "smrf-v1.0.1b")(type "KiCad")(uri "$(KIPRJMOD)/smrf-v1.0.1b.pretty")(options "")(descr ""))
+)

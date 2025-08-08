@@ -1,0 +1,139 @@
+(footprint "RECOM-DCDC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RECOM R-78E-0.5 DC/DC converter")
+	(property "Reference" "REF**"
+		(at -6.3 4.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "596cd4c6-1443-4c3c-91e6-78abae8654fd")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "RECOM-DCDC"
+		(at -6.4 6.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "847500fc-32ed-4c43-a453-a81a68be18d4")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "198845f7-bdfd-46fb-9a03-c5cff86ba44e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29e0bb15-df8c-4dd6-b8db-cd541d6f4ff4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "390f1609-3941-4a3f-9b00-e7a73b69687a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.8 -5.5)
+		(end -5.8 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ddd73f8-4179-4c80-8e99-017c111e7c2f")
+	)
+	(fp_line
+		(start -5.8 3)
+		(end 5.8 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b3afcac-ab22-4d59-a23a-cd438fec79c5")
+	)
+	(fp_line
+		(start 5.8 -5.5)
+		(end -5.8 -5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "264e7b44-c133-4b72-a32c-2240aa3fde6e")
+	)
+	(fp_line
+		(start 5.8 3)
+		(end 5.8 -5.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd0a1457-19e6-4cf3-b414-786290cceb05")
+	)
+	(pad "P$1" thru_hole circle
+		(at -2.54 0)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "3c7728f4-08b0-4ca3-8529-60699a171f23")
+	)
+	(pad "P$2" thru_hole circle
+		(at 0 0)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "8430cda4-48ec-4d5e-bafc-85ad9e553ad0")
+	)
+	(pad "P$3" thru_hole circle
+		(at 2.54 0)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "15aa50c6-c3dd-4757-89cf-4fde7fa26251")
+	)
+)
